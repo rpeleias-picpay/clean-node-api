@@ -1,3 +1,3 @@
 function teste () {
-    return {}
-    }
+  return {}
+}
