@@ -738,10 +738,10 @@ SF:src/utils/errors/invalid-param-error.js
 FN:2,(anonymous_0)
 FNF:1
 FNH:1
-FNDA:2,(anonymous_0)
+FNDA:4,(anonymous_0)
 DA:1,2
-DA:3,2
-DA:4,2
+DA:3,4
+DA:4,4
 LF:3
 LH:3
 BRF:0
@@ -752,10 +752,10 @@ SF:src/utils/errors/missing-param-error.js
 FN:2,(anonymous_0)
 FNF:1
 FNH:1
-FNDA:8,(anonymous_0)
+FNDA:10,(anonymous_0)
 DA:1,2
-DA:3,8
-DA:4,8
+DA:3,10
+DA:4,10
 LF:3
 LH:3
 BRF:0
