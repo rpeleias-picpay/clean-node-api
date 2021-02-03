@@ -13,6 +13,14 @@ const makeEncrypter = () => {
   encrypterSpy.isValid = true
   return encrypterSpy
 }
+const makeEncrypterWithError = () => {
+  class EncrypterSpy {
+    async compare (password, hashedPassword) {
+      throw new Error()
+    }
+  }
+  return new EncrypterSpy()
+}
 
 const makeTokenGenerator = () => {
   class TokenGeneratorSpy {
@@ -24,6 +32,15 @@ const makeTokenGenerator = () => {
   const tokenGeneratorSpy = new TokenGeneratorSpy()
   tokenGeneratorSpy.accessToken = 'any_token'
   return tokenGeneratorSpy
+}
+
+const makeTokenGeneratorWithError = () => {
+  class TokenGeneratorSpy {
+    async generate (userId) {
+      throw new Error()
+    }
+  }
+  return new TokenGeneratorSpy()
 }
 
 const makeLoadByUserEmailRepository = () => {
@@ -40,6 +57,16 @@ const makeLoadByUserEmailRepository = () => {
   }
   return loadUserByEmailRepositorySpy
 }
+const makeLoadByUserEmailRepositoryWithError = () => {
+  class LoadUserByEmailRepositorySpy {
+    async load (email) {
+      throw new Error()
+    }
+  }
+
+  return new LoadUserByEmailRepositorySpy()
+}
+
 const makeSut = () => {
   const encrypterSpy = makeEncrypter()
   const loadUserByEmailRepositorySpy = makeLoadByUserEmailRepository()
@@ -139,6 +166,27 @@ describe('Auth UseCase', () => {
         loadUserByEmailRepository,
         encrypter,
         tokenGenerator: invalid
+      })
+    )
+    for (const sut of suts) {
+      const promise = sut.auth('any_email@email.com', 'any_password')
+      expect(promise).rejects.toThrow()
+    }
+  })
+
+  test('Should throw if any dependency throws', async () => {
+    const suts = [].concat(
+      new AuthUseCase({
+        loadUserByEmailRepository: makeLoadByUserEmailRepositoryWithError()
+      }),
+      new AuthUseCase({
+        loadUserByEmailRepository: makeLoadByUserEmailRepository(),
+        encrypter: makeEncrypterWithError()
+      }),
+      new AuthUseCase({
+        loadUserByEmailRepository: makeLoadByUserEmailRepository(),
+        encrypter: makeEncrypter(),
+        tokenGenerator: makeTokenGeneratorWithError()
       })
     )
     for (const sut of suts) {
