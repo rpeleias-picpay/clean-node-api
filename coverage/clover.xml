@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1612270353575" clover="3.2.0">
-  <project timestamp="1612270353575" name="All files">
-    <metrics statements="175" coveredstatements="61" conditionals="339" coveredconditionals="16" methods="66" coveredmethods="13" elements="580" coveredelements="90" complexity="0" loc="175" ncloc="175" packages="8" files="17" classes="17"/>
+<coverage generated="1612315966406" clover="3.2.0">
+  <project timestamp="1612315966406" name="All files">
+    <metrics statements="177" coveredstatements="63" conditionals="340" coveredconditionals="17" methods="66" coveredmethods="13" elements="583" coveredelements="93" complexity="0" loc="177" ncloc="177" packages="8" files="17" classes="17"/>
     <package name="clean-node-api">
       <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="jest-integration-config.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/jest-integration-config.js">
@@ -144,24 +144,26 @@
       </file>
     </package>
     <package name="clean-node-api.src.domain.usecases">
-      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
       <file name="auth-usecase.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/src/domain/usecases/auth-usecase.js">
-        <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="12" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="15" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="19" count="8" type="stmt"/>
-        <line num="20" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
+        <line num="6" count="23" type="stmt"/>
+        <line num="7" count="23" type="stmt"/>
+        <line num="8" count="23" type="stmt"/>
+        <line num="9" count="23" type="stmt"/>
+        <line num="13" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="21" type="stmt"/>
+        <line num="21" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
       </file>
     </package>
     <package name="clean-node-api.src.presentation.errors">
