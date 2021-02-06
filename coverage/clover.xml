@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1612645332491" clover="3.2.0">
-  <project timestamp="1612645332491" name="All files">
-    <metrics statements="199" coveredstatements="84" conditionals="350" coveredconditionals="27" methods="69" coveredmethods="16" elements="618" coveredelements="127" complexity="0" loc="199" ncloc="199" packages="8" files="20" classes="20"/>
+<coverage generated="1612647485353" clover="3.2.0">
+  <project timestamp="1612647485354" name="All files">
+    <metrics statements="218" coveredstatements="103" conditionals="356" coveredconditionals="33" methods="74" coveredmethods="21" elements="648" coveredelements="157" complexity="0" loc="218" ncloc="218" packages="10" files="22" classes="22"/>
     <package name="clean-node-api">
       <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="jest-integration-config.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/jest-integration-config.js">
@@ -170,6 +170,37 @@
         <line num="27" count="2" type="stmt"/>
       </file>
     </package>
+    <package name="clean-node-api.src.infra.helpers">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="mongo-helper.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/src/infra/helpers/mongo-helper.js">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="clean-node-api.src.infra.repositories">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="load-user-by-email-repository.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/src/infra/repositories/load-user-by-email-repository.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="9" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+    </package>
     <package name="clean-node-api.src.presentation.errors">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/src/presentation/errors/index.js">
@@ -244,9 +275,9 @@
       </file>
       <file name="missing-param-error.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/src/utils/errors/missing-param-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="3" count="18" type="stmt"/>
-        <line num="4" count="18" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="20" type="stmt"/>
+        <line num="4" count="20" type="stmt"/>
       </file>
     </package>
     <package name="clean-node-api.src.utils.helpers">
