@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1612443152569" clover="3.2.0">
-  <project timestamp="1612443152569" name="All files">
-    <metrics statements="189" coveredstatements="75" conditionals="346" coveredconditionals="23" methods="67" coveredmethods="14" elements="602" coveredelements="112" complexity="0" loc="189" ncloc="189" packages="8" files="18" classes="18"/>
+<coverage generated="1612530094668" clover="3.2.0">
+  <project timestamp="1612530094668" name="All files">
+    <metrics statements="198" coveredstatements="84" conditionals="350" coveredconditionals="27" methods="69" coveredmethods="16" elements="617" coveredelements="127" complexity="0" loc="198" ncloc="198" packages="8" files="19" classes="19"/>
     <package name="clean-node-api">
       <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="jest-integration-config.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/jest-integration-config.js">
@@ -240,13 +240,13 @@
       </file>
       <file name="missing-param-error.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/src/utils/errors/missing-param-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="3" count="14" type="stmt"/>
-        <line num="4" count="14" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="18" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
       </file>
     </package>
     <package name="clean-node-api.src.utils.helpers">
-      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <metrics statements="24" coveredstatements="24" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="4"/>
       <file name="email-validator.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/src/utils/helpers/email-validator.js">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
@@ -267,6 +267,18 @@
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
         <line num="13" count="3" type="stmt"/>
+      </file>
+      <file name="token-generator.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/src/utils/helpers/token-generator.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
       </file>
     </package>
   </project>
