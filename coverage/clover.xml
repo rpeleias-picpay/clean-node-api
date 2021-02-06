@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1612530094668" clover="3.2.0">
-  <project timestamp="1612530094668" name="All files">
-    <metrics statements="198" coveredstatements="84" conditionals="350" coveredconditionals="27" methods="69" coveredmethods="16" elements="617" coveredelements="127" complexity="0" loc="198" ncloc="198" packages="8" files="19" classes="19"/>
+<coverage generated="1612645332491" clover="3.2.0">
+  <project timestamp="1612645332491" name="All files">
+    <metrics statements="199" coveredstatements="84" conditionals="350" coveredconditionals="27" methods="69" coveredmethods="16" elements="618" coveredelements="127" complexity="0" loc="199" ncloc="199" packages="8" files="20" classes="20"/>
     <package name="clean-node-api">
-      <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="jest-integration-config.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/jest-integration-config.js">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="jest-mongodb-config.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/jest-mongodb-config.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
       </file>
       <file name="jest-unit-config.js" path="/Users/rodrigo.peleias/Development/studies/clean-node-api/jest-unit-config.js">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
