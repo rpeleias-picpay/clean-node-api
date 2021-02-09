@@ -9,7 +9,7 @@ const env = require('../config/env')
 
 module.exports = class LoginRouterComposer {
   static compose () {
-    const tokenGenerator = new TokenGenerator(env.secret)
+    const tokenGenerator = new TokenGenerator(env.tokenSecret)
     const encrypter = new Encrypter()
     const loadUserByEmailRepository = new LoadUserByEmailRepository()
     const updateAccessTokenRepository = new UpdateAccessTokenRepository()
